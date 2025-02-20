@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    background-color: lightslategray;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+}
+.image{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+
+   
+}
+img{
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+   
+
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 3rem;
+}
+.image:hover{
+    cursor: pointer;
+  background-color: #081b31;
+}
+.scoreCont{
+    justify-content: center;
+    display: flex;
+    gap: 5rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.winner{
+    text-align: center;
+   margin-top: 2rem;
+   
+}
+#UserScore,#ComScore{
+    font-size: 4rem;
+}
+#msg{
+    background-color: #081b31;
+    color: blanchedalmond;
+    display: inline;
+    border-radius: 1rem;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+
